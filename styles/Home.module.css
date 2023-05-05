@@ -1,0 +1,20 @@
+.column {
+  height: 100vh;
+  display: inline-block;
+}
+
+.sidebar {
+  background-color: #0d0d0e;
+  width: 250px;
+}
+
+.home {
+  background-color: #121212;
+  background-image: url('https://i.pinimg.com/564x/2b/64/64/2b64649d6ee4894a73c93adaaff962f6.jpg'); /* set the background image */
+  background-repeat: repeat-x; /* repeat the image vertically */
+  background-size: contain;
+  width: calc(100% - 250px);
+  height: 100vh;
+  display: inline-block;
+  overflow-y: scroll;
+}
