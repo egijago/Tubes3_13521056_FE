@@ -1,5 +1,5 @@
 async function send(queries) {
-  const response = await fetch('http://localhost:3000/api/prompt', {
+  const response = await fetch('http://localhost:3001/api/prompt', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
