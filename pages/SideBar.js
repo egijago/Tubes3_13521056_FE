@@ -3,7 +3,7 @@ import sidebar from '../styles/SideBar.module.css'
 import { ChatBox } from "./ChatBox";
 import send from './api/send';
 
-export const SideBar = () => {
+export default function SideBar() {
   const [isOn1, setIsOn1] = useState(true);
   const [isOn2, setIsOn2] = useState(false);
   const [buttons, setButtons] = useState([]);

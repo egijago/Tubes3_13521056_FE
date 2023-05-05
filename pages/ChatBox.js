@@ -5,7 +5,7 @@ import send from './api/send';
 import { SideBar } from './SideBar';
 import styles from '../styles/ChatBox.module.css';
 
-export function ChatBox({ id }) {
+export default function ChatBox({ id }) {
   const [messages, setMessages] = useState([]);
 
   const initializeChat = async () => {
