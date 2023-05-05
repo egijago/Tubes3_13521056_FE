@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import sidebar from '../styles/SideBar.module.css'
-import { ChatBox } from "./ChatBox";
 import send from './api/send';
 
 export default function SideBar() {

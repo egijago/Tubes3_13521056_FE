@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import send from './api/send';
-import { SideBar } from './SideBar';
 import styles from '../styles/ChatBox.module.css';
 
 export default function ChatBox({ id }) {

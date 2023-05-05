@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { useState } from 'react';
-import { SideBar } from './SideBar';
-import { ChatBox } from './ChatBox';
+import  SideBar  from './SideBar';
+import  ChatBox  from './ChatBox';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
@@ -24,7 +24,7 @@ export default function Home() {
           }
         `}</style>
       </Head>
-      <div className={`${styles.column} ${styles['sidebar']}`}>
+      <div className={`${styles.column} ${styles.sidebar}`}>
         <SideBar clearChatBox={clearChatBox} />
       </div>
       <div className={`${styles.column} ${styles['home']}`}>
