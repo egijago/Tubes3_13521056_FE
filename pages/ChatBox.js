@@ -1,9 +1,9 @@
 import { useState, useEffect, useRef } from 'react';
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import send from './api/send';
-import { SideBar } from './SideBar';
+import send from './api/send';;
 import styles from '../styles/ChatBox.module.css';
+import React from 'react';
 
 export function ChatBox({ id }) {
   const [messages, setMessages] = useState([]);
@@ -73,7 +73,12 @@ export function ChatBox({ id }) {
                   msg.sender === 'me' ? styles.left : styles.right
                 }`}
               >
-                {msg.response}
+                  {msg.response.split('\n').map((line, idx) => (
+                    <React.Fragment key={idx}>
+                      {line}
+                      <br />
+                      </React.Fragment>
+                  ))}
               </div>
             </div>
           ))}
