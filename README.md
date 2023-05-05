@@ -37,11 +37,6 @@ List the ready features here:
 - Hapus pertanyaan dari database
 
 
-## Screenshots
-![Example screenshot](./img/gptathome.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
-
-
 ## Usage
 ### Alternativ 1: 
 - Buka [link vercel app ini](https://tubes3-13521056-fe.vercel.app/)
