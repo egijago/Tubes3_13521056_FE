@@ -1,5 +1,5 @@
 async function send(queries) {
-  const response = await fetch('http://localhost:3000/api/prompt', {
+  const response = await fetch('https://tubes3-13521056-vfnu.vercel.app/api/prompt', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
